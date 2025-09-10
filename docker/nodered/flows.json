@@ -1,0 +1,126 @@
+[
+    {
+        "id": "63e81cc05d901838",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9ebecf2dd1568a3f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "172.19.0.1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "126a9de5fb31861b",
+        "type": "inject",
+        "z": "63e81cc05d901838",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "iso",
+        "payloadType": "date",
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "af2fbf80f6b291e9"
+            ]
+        ]
+    },
+    {
+        "id": "af2fbf80f6b291e9",
+        "type": "mqtt out",
+        "z": "63e81cc05d901838",
+        "name": "",
+        "topic": "/prueba/nodered",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9ebecf2dd1568a3f",
+        "x": 560,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "2f055c2233d43a80",
+        "type": "mqtt in",
+        "z": "63e81cc05d901838",
+        "name": "",
+        "topic": "/ejemplo/homeassistant",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9ebecf2dd1568a3f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 360,
+        "y": 440,
+        "wires": [
+            [
+                "7a830aaa5a7bcc92"
+            ]
+        ]
+    },
+    {
+        "id": "7a830aaa5a7bcc92",
+        "type": "debug",
+        "z": "63e81cc05d901838",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 440,
+        "wires": []
+    }
+]
