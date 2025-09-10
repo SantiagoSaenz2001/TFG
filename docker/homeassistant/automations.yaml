@@ -1,0 +1,370 @@
+- id: '1747763133585'
+  alias: Activar Riego Baño
+  description: ''
+  triggers:
+  - type: humidity
+    device_id: 0fe13989d5c289ae4d35766abd9816a6
+    entity_id: b3d1f2cae4701aff64a4ad4353b8686a
+    domain: sensor
+    trigger: device
+    below: 40
+  - type: humidity
+    device_id: 90d9b74c69ab9bb5efbd4db640b9efa1
+    entity_id: 95ab12893ba0215a573cf8704eb9fb7e
+    domain: sensor
+    trigger: device
+    below: 40
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_bannio/valve/state
+      payload: 'ON'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_bannio/valve/set
+      payload: 'ON'
+  mode: single
+- id: '1747763247372'
+  alias: Encender lampara baño
+  description: ''
+  triggers:
+  - type: illuminance
+    device_id: 3113d44b33360eca39a44102a401fa10
+    entity_id: 7421ebbdab4370153f6844cc7ff71750
+    domain: sensor
+    trigger: device
+    below: 60
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_bannio/set
+      payload: 'ON'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_bannio/state
+      payload: 'ON'
+  mode: single
+- id: '1747764558114'
+  alias: Activar riego dormitorio
+  description: ''
+  triggers:
+  - type: humidity
+    device_id: b300f55f0223917e084519fe36b7e0aa
+    entity_id: d67649b7194be490b5faf3f689561b72
+    domain: sensor
+    trigger: device
+    below: 45
+  - type: humidity
+    device_id: 6b7a60c0e5ff26dbf9f97ee6f562b8b9
+    entity_id: 2429f9cf36bcbc059dd953fbc5bb841e
+    domain: sensor
+    trigger: device
+    below: 45
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_dormitorio/valve/state
+      payload: 'ON'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_dormitorio/valve/set
+      payload: 'ON'
+  mode: single
+- id: '1747764658058'
+  alias: Encender lampara dormitorio
+  description: ''
+  triggers:
+  - type: illuminance
+    device_id: 10f0389b0018c40e08ebbe29b170763c
+    entity_id: fa4817295b0616c2b8d1a82c554f0e98
+    domain: sensor
+    trigger: device
+    below: 100
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_dormitorio/set
+      payload: 'ON'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_dormitorio/state
+      payload: 'ON'
+  mode: single
+- id: '1747764771412'
+  alias: Activar riego salon
+  description: ''
+  triggers:
+  - type: humidity
+    device_id: 02805f9ff1b99972d9a910277bc07e96
+    entity_id: b1dd2c123e47c86ff88dc792d98017c8
+    domain: sensor
+    trigger: device
+    below: 40
+  - type: humidity
+    device_id: fffd0b7c8295aa8f8604b3443f43d557
+    entity_id: 4c39ea85ff8fe7e0c269a3f6c8e46fb8
+    domain: sensor
+    trigger: device
+    below: 42
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_salon/valve/state
+      payload: 'ON'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_salon/valve/set
+      payload: 'ON'
+  mode: single
+- id: '1747764843849'
+  alias: Encender lampara salon
+  description: ''
+  triggers:
+  - type: illuminance
+    device_id: 0f5b30677cb1d0b9d1e53134e6786a16
+    entity_id: 0562036d6e34676d98c4ef0b2ffe28b9
+    domain: sensor
+    trigger: device
+    below: 65
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_salon/set
+      payload: 'ON'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_salon/state
+      payload: 'ON'
+  mode: single
+- id: '1747764981492'
+  alias: Activar riego terraza
+  description: ''
+  triggers:
+  - type: humidity
+    device_id: 29bed487a55d78bef67f6e16cc36981c
+    entity_id: 5852348cd87c73e05bb439f856ba9471
+    domain: sensor
+    trigger: device
+    below: 50
+  - type: humidity
+    device_id: 7395cce39b9c28b5fabf2eb30cfffd4b
+    entity_id: 1c5c3724729a733372bd4288f6200879
+    domain: sensor
+    trigger: device
+    below: 38
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_terraza/valve/state
+      payload: 'ON'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_terraza/valve/set
+      payload: 'ON'
+  mode: single
+- id: '1747765086180'
+  alias: Desactivar riego baño
+  description: ''
+  triggers:
+  - type: humidity
+    device_id: 0fe13989d5c289ae4d35766abd9816a6
+    entity_id: b3d1f2cae4701aff64a4ad4353b8686a
+    domain: sensor
+    trigger: device
+    above: 40
+  - type: humidity
+    device_id: 90d9b74c69ab9bb5efbd4db640b9efa1
+    entity_id: 95ab12893ba0215a573cf8704eb9fb7e
+    domain: sensor
+    trigger: device
+    above: 42
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_bannio/valve/state
+      payload: 'OFF'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_bannio/valve/set
+      payload: 'OFF'
+  mode: single
+- id: '1747765129949'
+  alias: Apagar lampara baño
+  description: ''
+  triggers:
+  - type: illuminance
+    device_id: 3113d44b33360eca39a44102a401fa10
+    entity_id: 7421ebbdab4370153f6844cc7ff71750
+    domain: sensor
+    trigger: device
+    above: 57
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_bannio/set
+      payload: 'OFF'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_bannio/state
+      payload: 'OFF'
+  mode: single
+- id: '1747765192296'
+  alias: Desactivar riego dormitorio
+  description: ''
+  triggers:
+  - type: humidity
+    device_id: b300f55f0223917e084519fe36b7e0aa
+    entity_id: d67649b7194be490b5faf3f689561b72
+    domain: sensor
+    trigger: device
+    above: 45
+  - type: humidity
+    device_id: 6b7a60c0e5ff26dbf9f97ee6f562b8b9
+    entity_id: 2429f9cf36bcbc059dd953fbc5bb841e
+    domain: sensor
+    trigger: device
+    above: 42
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_dormitorio/valve/state
+      payload: 'OFF'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_dormitorio/valve/set
+      payload: 'OFF'
+  mode: single
+- id: '1747765239712'
+  alias: Apagar lampara dormitorio
+  description: ''
+  triggers:
+  - type: illuminance
+    device_id: 10f0389b0018c40e08ebbe29b170763c
+    entity_id: fa4817295b0616c2b8d1a82c554f0e98
+    domain: sensor
+    trigger: device
+    above: 120
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_dormitorio/set
+      payload: 'OFF'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_dormitorio/state
+      payload: 'OFF'
+  mode: single
+- id: '1747765308983'
+  alias: Desactivar riego salon
+  description: ''
+  triggers:
+  - type: humidity
+    device_id: 02805f9ff1b99972d9a910277bc07e96
+    entity_id: b1dd2c123e47c86ff88dc792d98017c8
+    domain: sensor
+    trigger: device
+    above: 39
+  - type: humidity
+    device_id: fffd0b7c8295aa8f8604b3443f43d557
+    entity_id: 4c39ea85ff8fe7e0c269a3f6c8e46fb8
+    domain: sensor
+    trigger: device
+    above: 38
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_salon/valve/state
+      payload: 'OFF'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_salon/valve/set
+      payload: 'OFF'
+  mode: single
+- id: '1747765338766'
+  alias: Apagar lampara salon
+  description: ''
+  triggers:
+  - type: illuminance
+    device_id: 0f5b30677cb1d0b9d1e53134e6786a16
+    entity_id: 0562036d6e34676d98c4ef0b2ffe28b9
+    domain: sensor
+    trigger: device
+    above: 65
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_salon/set
+      payload: 'OFF'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/smart_plug_salon/state
+      payload: 'OFF'
+  mode: single
+- id: '1747765373504'
+  alias: Desactivar riego terraza
+  description: ''
+  triggers:
+  - type: humidity
+    device_id: 29bed487a55d78bef67f6e16cc36981c
+    entity_id: 5852348cd87c73e05bb439f856ba9471
+    domain: sensor
+    trigger: device
+    above: 45
+  - type: humidity
+    device_id: 7395cce39b9c28b5fabf2eb30cfffd4b
+    entity_id: 1c5c3724729a733372bd4288f6200879
+    domain: sensor
+    trigger: device
+    above: 40
+  conditions: []
+  actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_terraza/valve/state
+      payload: 'OFF'
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      topic: homeassistant/switch/droplet_terraza/valve/set
+      payload: 'OFF'
+  mode: single
