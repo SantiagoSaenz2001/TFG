@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.admin","state":"unknown","attributes":{"editable":true,"id":"admin","device_trackers":[],"user_id":"e10ab17fe2c44945b5d31739d5c76679","friendly_name":"admin"},"last_changed":"2025-09-08T15:28:28.741584+00:00","last_reported":"2025-09-08T15:28:32.065187+00:00","last_updated":"2025-09-08T15:28:32.065187+00:00","context":{"id":"01K4MZ2VA1K1JCA6C7QPS1SG5H","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-09-08T15:28:31.177488+00:00","last_reported":"2025-09-08T15:28:31.177488+00:00","last_updated":"2025-09-08T15:28:31.177488+00:00","context":{"id":"01K4MZ2TE9EYBFEFMK3B6R6Z5D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-09-08T15:28:32.049219+00:00","last_reported":"2025-09-08T15:28:32.049219+00:00","last_updated":"2025-09-08T15:28:32.049219+00:00","context":{"id":"01K4MZ2V9HRKJ9T2KV1JNER5KQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.droplet_irrigation_water_flow_control_4","state":"off","attributes":{"friendly_name":"Controlador Riego"},"last_changed":"2025-09-10T08:26:17.618792+00:00","last_reported":"2025-09-10T08:26:17.618792+00:00","last_updated":"2025-09-10T08:26:17.618792+00:00","context":{"id":"01K4SBQ4MJJ1QHYFT5MJBAC43N","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.droplet_irrigation_water_flow_control_2","state":"off","attributes":{"friendly_name":"Controlador Riego"},"last_changed":"2025-09-10T08:26:07.613443+00:00","last_reported":"2025-09-10T08:26:07.613443+00:00","last_updated":"2025-09-10T08:26:07.613443+00:00","context":{"id":"01K4SBPTVX6NBFWEMZ37VSZ0YB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.droplet_irrigation_water_flow_control_3","state":"off","attributes":{"friendly_name":"Controlador Riego"},"last_changed":"2025-09-10T08:26:13.617289+00:00","last_reported":"2025-09-10T08:26:13.617289+00:00","last_updated":"2025-09-10T08:26:13.617289+00:00","context":{"id":"01K4SBQ0QH0ZYCN8GFY87R7FEJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.droplet_irrigation_water_flow_rate","state":"2","attributes":{"unit_of_measurement":"L/min","friendly_name":"Cantidad Riego"},"last_changed":"2025-09-10T07:15:43.779637+00:00","last_reported":"2025-09-10T07:15:43.779637+00:00","last_updated":"2025-09-10T07:15:43.779637+00:00","context":{"id":"01K4S7NY138XGA77H35R24T1NG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2",
+        "native_unit_of_measurement": "L/min"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.smoke_sensor_home_smoke_sensor","state":"off","attributes":{"device_class":"smoke","friendly_name":"Sensor Humo"},"last_changed":"2025-09-10T08:05:03.797589+00:00","last_reported":"2025-09-10T08:05:03.797589+00:00","last_updated":"2025-09-10T08:05:03.797589+00:00","context":{"id":"01K4SAG8NNJSS07BKT77YT5G2C","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.solar_charger_solar_charger_battery","state":"85","attributes":{"unit_of_measurement":"%","device_class":"battery","friendly_name":"Cargador Solar"},"last_changed":"2025-09-10T07:15:09.099935+00:00","last_reported":"2025-09-10T07:15:09.099935+00:00","last_updated":"2025-09-10T07:15:09.099935+00:00","context":{"id":"01K4S7MW5BKKAWZMAG6NAGWD1G","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "85",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.alfawise_sj_7_alfawise_sj_7_power","state":"on","attributes":{"device_class":"switch","friendly_name":"Difusor Aceites Esenciales"},"last_changed":"2025-09-10T07:15:09.382764+00:00","last_reported":"2025-09-10T07:15:09.382764+00:00","last_updated":"2025-09-10T07:15:09.382764+00:00","context":{"id":"01K4S7MWE6EEV1XKN681ESSQVE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.smart_plug_salon_smart_plug_salon","state":"off","attributes":{"device_class":"outlet","friendly_name":"Enchufe"},"last_changed":"2025-09-10T08:23:14.540094+00:00","last_reported":"2025-09-10T08:23:14.540094+00:00","last_updated":"2025-09-10T08:23:14.540094+00:00","context":{"id":"01K4SBHHVCQP6R7MS28WNF0XEB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.smart_plug_dormitorio_smart_plug_dormitorio","state":"on","attributes":{"device_class":"outlet","friendly_name":"Enchufe"},"last_changed":"2025-09-10T08:26:09.615046+00:00","last_reported":"2025-09-10T08:26:09.615046+00:00","last_updated":"2025-09-10T08:26:09.615046+00:00","context":{"id":"01K4SBPWTF6VFNB1TW1TMW0TYK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.droplet_irrigation_water_flow_control","state":"on","attributes":{"friendly_name":"Controlador Riego"},"last_changed":"2025-09-10T08:23:03.541172+00:00","last_reported":"2025-09-10T08:23:03.541172+00:00","last_updated":"2025-09-10T08:23:03.541172+00:00","context":{"id":"01K4SBH73NN295GGS0KQ2V5H58","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.smart_plug_bannio_smart_plug_bannio","state":"off","attributes":{"device_class":"outlet","friendly_name":"Enchufe"},"last_changed":"2025-09-10T08:23:05.535141+00:00","last_reported":"2025-09-10T08:23:05.535141+00:00","last_updated":"2025-09-10T08:23:05.535141+00:00","context":{"id":"01K4SBH91ZYPA8H6FFK59TKM1X","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.droplet_irrigation_water_flow_rate_4","state":"2","attributes":{"unit_of_measurement":"L/min","friendly_name":"Cantidad Riego"},"last_changed":"2025-09-10T07:16:22.278299+00:00","last_reported":"2025-09-10T07:16:22.278299+00:00","last_updated":"2025-09-10T07:16:22.278299+00:00","context":{"id":"01K4S7Q3M6D56PEA0ZY3M0YMFE","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2",
+        "native_unit_of_measurement": "L/min"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.droplet_irrigation_water_flow_rate_2","state":"2","attributes":{"unit_of_measurement":"L/min","friendly_name":"Cantidad Riego"},"last_changed":"2025-09-10T07:16:22.549784+00:00","last_reported":"2025-09-10T07:16:22.549784+00:00","last_updated":"2025-09-10T07:16:22.549784+00:00","context":{"id":"01K4S7Q3WN9R1Y0QT9EYS1ZMNV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2",
+        "native_unit_of_measurement": "L/min"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_humedad_cherry_smart_plant_moisture_cherry","state":"50","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad Cherry"},"last_changed":"2025-09-10T08:26:17.616895+00:00","last_reported":"2025-09-10T08:26:17.616895+00:00","last_updated":"2025-09-10T08:26:17.616895+00:00","context":{"id":"01K4SBQ4MG1V1BY80VFVS32FRJ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "50",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.humidity_sensor_balcony_room_balcony_room_humidity","state":"41","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad"},"last_changed":"2025-09-10T08:26:16.617847+00:00","last_reported":"2025-09-10T08:26:16.617847+00:00","last_updated":"2025-09-10T08:26:16.617847+00:00","context":{"id":"01K4SBQ3N9HDDPB77VT40F5Q2S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "41",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_radiation_light_terraza_smart_plant_light_terraza","state":"100","attributes":{"unit_of_measurement":"lx","device_class":"illuminance","friendly_name":"Sensor Radiación Solar"},"last_changed":"2025-09-10T08:26:19.619193+00:00","last_reported":"2025-09-10T08:26:19.619193+00:00","last_updated":"2025-09-10T08:26:19.619193+00:00","context":{"id":"01K4SBQ6K3YFSTD1QJSB7FX7NP","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "100",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_humedad_lavanda_smart_plant_moisture_lavanda","state":"42","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad Lavanda"},"last_changed":"2025-09-10T08:26:18.618794+00:00","last_reported":"2025-09-10T08:26:18.618794+00:00","last_updated":"2025-09-10T08:26:18.618794+00:00","context":{"id":"01K4SBQ5KTKXXSKXAYK1VZ401B","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "42",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sensor_de_temperatura_terraza_temperatura","state":"18","attributes":{"unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Sensor Temperatura"},"last_changed":"2025-09-10T08:26:20.620388+00:00","last_reported":"2025-09-10T08:26:20.620388+00:00","last_updated":"2025-09-10T08:26:20.620388+00:00","context":{"id":"01K4SBQ7JCKY3DRAPMPTMSV2KN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "18",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.droplet_irrigation_water_flow_rate_3","state":"2","attributes":{"unit_of_measurement":"L/min","friendly_name":"Cantidad Riego"},"last_changed":"2025-09-10T07:16:24.706220+00:00","last_reported":"2025-09-10T07:16:24.706220+00:00","last_updated":"2025-09-10T07:16:24.706220+00:00","context":{"id":"01K4S7Q602T0RPR4XREHBDDHWY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2",
+        "native_unit_of_measurement": "L/min"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_humedad_espatifilo_smart_plant_moisture_espatifilo","state":"47","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad Espatifilo"},"last_changed":"2025-09-10T08:26:07.611801+00:00","last_reported":"2025-09-10T08:26:07.611801+00:00","last_updated":"2025-09-10T08:26:07.611801+00:00","context":{"id":"01K4SBPTVVFGHD4B6A6H3AF971","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "47",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_humedad_sansevieria_smart_plant_moisture_sansevieria","state":"43","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad Sansevieria"},"last_changed":"2025-09-10T08:26:08.612004+00:00","last_reported":"2025-09-10T08:26:08.612004+00:00","last_updated":"2025-09-10T08:26:08.612004+00:00","context":{"id":"01K4SBPVV4JP9BMMZNVZAMYB6H","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "43",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.humidity_sensor_living_room_living_room_humidity","state":"37","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad"},"last_changed":"2025-09-10T08:26:11.615121+00:00","last_reported":"2025-09-10T08:26:11.615121+00:00","last_updated":"2025-09-10T08:26:11.615121+00:00","context":{"id":"01K4SBPYRZD2TJJJ9Z9PPPSWW2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "37",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_humedad_cactus_smart_plant_moisture_cactus","state":"39","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad Cactus"},"last_changed":"2025-09-10T08:26:12.615841+00:00","last_reported":"2025-09-10T08:26:12.615841+00:00","last_updated":"2025-09-10T08:26:12.615841+00:00","context":{"id":"01K4SBPZR73JWFAMM2T2GTDGZ6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "39",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sensor_de_temperatura_dormitorio_temperatura","state":"17","attributes":{"unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Sensor Temperatura"},"last_changed":"2025-09-10T08:26:10.613053+00:00","last_reported":"2025-09-10T08:26:10.613053+00:00","last_updated":"2025-09-10T08:26:10.613053+00:00","context":{"id":"01K4SBPXSNFGHKDYD0VATRDF8X","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "17",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_humedad_ficus_smart_plant_moisture_ficus","state":"41","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad Ficus"},"last_changed":"2025-09-10T08:26:13.614799+00:00","last_reported":"2025-09-10T08:26:13.614799+00:00","last_updated":"2025-09-10T08:26:13.614799+00:00","context":{"id":"01K4SBQ0QE5X821BKS00TC8Z73","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "41",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.humidity_sensor_bed_room_bed_room_humidity","state":"42","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad"},"last_changed":"2025-09-10T08:26:06.612944+00:00","last_reported":"2025-09-10T08:26:06.612944+00:00","last_updated":"2025-09-10T08:26:06.612944+00:00","context":{"id":"01K4SBPSWMQEPMWZ09JPB7MXP9","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "42",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.sensor_de_temperatura_salon_temperatura","state":"16","attributes":{"unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Sensor Temperatura"},"last_changed":"2025-09-10T08:26:15.615798+00:00","last_reported":"2025-09-10T08:26:15.615798+00:00","last_updated":"2025-09-10T08:26:15.615798+00:00","context":{"id":"01K4SBQ2NZR4KM8007FWR0BAJT","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "16",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_light_dormitorio_smart_plant_light_dormitorio","state":"80","attributes":{"unit_of_measurement":"lx","device_class":"illuminance","friendly_name":"Sensor Luz"},"last_changed":"2025-09-10T08:26:09.612729+00:00","last_reported":"2025-09-10T08:26:09.612729+00:00","last_updated":"2025-09-10T08:26:09.612729+00:00","context":{"id":"01K4SBPWTC9A7T2GFKQ6K3PHTD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "80",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_light_salon_smart_plant_light_salon","state":"68","attributes":{"unit_of_measurement":"lx","device_class":"illuminance","friendly_name":"Sensor Luz"},"last_changed":"2025-09-10T08:26:14.616880+00:00","last_reported":"2025-09-10T08:26:14.616880+00:00","last_updated":"2025-09-10T08:26:14.616880+00:00","context":{"id":"01K4SBQ1PRVZGS5Q5NR5E9NTJ2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "68",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_humedad_poto_smart_plant_moisture_poto","state":"34","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad Poto"},"last_changed":"2025-09-10T08:26:04.611361+00:00","last_reported":"2025-09-10T08:26:04.611361+00:00","last_updated":"2025-09-10T08:26:04.611361+00:00","context":{"id":"01K4SBPQY3NHNHYQEKSQ98QXM9","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "34",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_humedad_helecho_smart_plant_moisture_helecho","state":"37","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad Helecho"},"last_changed":"2025-09-10T08:26:03.609200+00:00","last_reported":"2025-09-10T08:26:03.609200+00:00","last_updated":"2025-09-10T08:26:03.609200+00:00","context":{"id":"01K4SBPPYS1P320BCEPJWPHQWF","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "37",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.smart_plant_light_bannio_smart_plant_light_bannio","state":"29","attributes":{"unit_of_measurement":"lx","device_class":"illuminance","friendly_name":"Sensor Luz"},"last_changed":"2025-09-10T08:26:05.611927+00:00","last_reported":"2025-09-10T08:26:05.611927+00:00","last_updated":"2025-09-10T08:26:05.611927+00:00","context":{"id":"01K4SBPRXB4KAH55Q742K1CN7J","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "29",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.humidity_sensor_bathroom_room_bathroom_room_humidity","state":"33","attributes":{"unit_of_measurement":"%","device_class":"humidity","friendly_name":"Sensor Humedad"},"last_changed":"2025-09-10T08:26:02.608901+00:00","last_reported":"2025-09-10T08:26:02.608901+00:00","last_updated":"2025-09-10T08:26:02.608901+00:00","context":{"id":"01K4SBPNZGR7AZP0VFMFQEARH5","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "33",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"button.contador_demo_contador_manual","state":"2025-09-10T08:47:09.088937+00:00","attributes":{"friendly_name":"Contador Demo Contador Manual"},"last_changed":"2025-09-10T08:47:09.088972+00:00","last_reported":"2025-09-10T08:47:09.088972+00:00","last_updated":"2025-09-10T08:47:09.088972+00:00","context":{"id":"01K4SCXAS0J67S305N3P2G9G8G","parent_id":null,"user_id":"e10ab17fe2c44945b5d31739d5c76679"}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.activar_riego_bano","state":"on","attributes":{"id":"1747763133585","last_triggered":"2025-09-10T08:23:04.534593+00:00","mode":"single","current":0,"friendly_name":"Activar Riego Baño"},"last_changed":"2025-09-10T07:29:15.218338+00:00","last_reported":"2025-09-10T08:23:04.543488+00:00","last_updated":"2025-09-10T08:23:04.543488+00:00","context":{"id":"01K4SBH82P2KCSAWNJ59PFCQAG","parent_id":"01K4SBH82N8K82CX6NQTFDJSVA","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.encender_lampara_bano","state":"on","attributes":{"id":"1747763247372","last_triggered":"2025-09-10T08:06:04.105777+00:00","mode":"single","current":0,"friendly_name":"Encender lampara baño"},"last_changed":"2025-09-10T07:30:21.331355+00:00","last_reported":"2025-09-10T08:06:04.111334+00:00","last_updated":"2025-09-10T08:06:04.111334+00:00","context":{"id":"01K4SAJ3J92SWP46AVH4SH493T","parent_id":"01K4SAJ3J9ST9RNBTKH4NDCMQJ","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.desactivar_riego_bano","state":"on","attributes":{"id":"1747765086180","last_triggered":null,"mode":"single","current":0,"friendly_name":"Desactivar riego baño"},"last_changed":"2025-09-10T07:31:14.497548+00:00","last_reported":"2025-09-10T07:31:14.497548+00:00","last_updated":"2025-09-10T07:31:14.497548+00:00","context":{"id":"01K4S8JAY1W0MH3GNPQT4J9H6X","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.apagar_lampara_bano","state":"on","attributes":{"id":"1747765129949","last_triggered":"2025-09-10T08:23:05.532813+00:00","mode":"single","current":0,"friendly_name":"Apagar lampara baño"},"last_changed":"2025-09-10T07:31:45.346850+00:00","last_reported":"2025-09-10T08:23:05.534616+00:00","last_updated":"2025-09-10T08:23:05.534616+00:00","context":{"id":"01K4SBH91W361FR8T7CZVGVEH5","parent_id":"01K4SBH91WEXDWGHY65HRGQYMF","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.activar_riego_dormitorio","state":"on","attributes":{"id":"1747764558114","last_triggered":"2025-09-10T08:20:08.460053+00:00","mode":"single","current":0,"friendly_name":"Activar riego dormitorio"},"last_changed":"2025-09-10T07:33:27.222607+00:00","last_reported":"2025-09-10T08:20:08.462663+00:00","last_updated":"2025-09-10T08:20:08.462663+00:00","context":{"id":"01K4SBBW4BGVHJ1JWKRN50WK6R","parent_id":"01K4SBBW4BVHPMDAB1A3PFHKXQ","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.encender_lampara_dormitorio","state":"on","attributes":{"id":"1747764658058","last_triggered":"2025-09-10T08:26:09.613077+00:00","mode":"single","current":0,"friendly_name":"Encender lampara dormitorio"},"last_changed":"2025-09-10T07:34:22.841682+00:00","last_reported":"2025-09-10T08:26:09.614501+00:00","last_updated":"2025-09-10T08:26:09.614501+00:00","context":{"id":"01K4SBPWTCVZB3NAB7XNDQYBY5","parent_id":"01K4SBPWTC9A7T2GFKQ6K3PHTD","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.desactivar_riego_dormitorio","state":"on","attributes":{"id":"1747765192296","last_triggered":"2025-09-10T08:26:08.612301+00:00","mode":"single","current":0,"friendly_name":"Desactivar riego dormitorio"},"last_changed":"2025-09-10T07:36:54.397459+00:00","last_reported":"2025-09-10T08:26:08.614319+00:00","last_updated":"2025-09-10T08:26:08.614319+00:00","context":{"id":"01K4SBPVV4HE62EMJVP6QAS1PM","parent_id":"01K4SBPVV4JP9BMMZNVZAMYB6H","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.apagar_lampara_salon","state":"on","attributes":{"id":"1747765239712","last_triggered":"2025-09-10T08:23:09.536933+00:00","mode":"single","current":0,"friendly_name":"Apagar lampara dormitorio"},"last_changed":"2025-09-10T07:37:19.480136+00:00","last_reported":"2025-09-10T08:23:09.542992+00:00","last_updated":"2025-09-10T08:23:09.542992+00:00","context":{"id":"01K4SBHCZ0VBZ6T35VRFC0D2KX","parent_id":"01K4SBHCYZ3CF7E2Q53MGYHED6","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.encender_riego_salon","state":"on","attributes":{"id":"1747764771412","last_triggered":"2025-09-10T08:23:12.536977+00:00","mode":"single","current":0,"friendly_name":"Activar riego salon"},"last_changed":"2025-09-10T07:46:46.779610+00:00","last_reported":"2025-09-10T08:23:12.540192+00:00","last_updated":"2025-09-10T08:23:12.540192+00:00","context":{"id":"01K4SBHFWR13DV31D3F71TDX7H","parent_id":"01K4SBHFWRMT6N2E60G81QQVF9","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.encender_lampara_salon","state":"on","attributes":{"id":"1747764843849","last_triggered":"2025-09-10T08:06:13.110441+00:00","mode":"single","current":0,"friendly_name":"Encender lampara salon"},"last_changed":"2025-09-10T07:47:10.910992+00:00","last_reported":"2025-09-10T08:06:13.112568+00:00","last_updated":"2025-09-10T08:06:13.112568+00:00","context":{"id":"01K4SAJCBPN0GZHMWD2NK6VWB3","parent_id":"01K4SAJCBP8D3Y86VMTGPJ5T78","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.desactivar_riego_salon","state":"on","attributes":{"id":"1747765308983","last_triggered":"2025-09-10T08:26:13.615106+00:00","mode":"single","current":0,"friendly_name":"Desactivar riego salon"},"last_changed":"2025-09-10T07:50:52.644004+00:00","last_reported":"2025-09-10T08:26:13.618645+00:00","last_updated":"2025-09-10T08:26:13.618645+00:00","context":{"id":"01K4SBQ0QFSNC6E6AA9BREH2MR","parent_id":"01K4SBQ0QE5X821BKS00TC8Z73","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.apagar_lampara_salon_2","state":"on","attributes":{"id":"1747765338766","last_triggered":"2025-09-10T08:23:14.537577+00:00","mode":"single","current":0,"friendly_name":"Apagar lampara salon"},"last_changed":"2025-09-10T07:51:22.308466+00:00","last_reported":"2025-09-10T08:23:14.539576+00:00","last_updated":"2025-09-10T08:23:14.539576+00:00","context":{"id":"01K4SBHHV9462RNPZ27BFZCD2V","parent_id":"01K4SBHHV9MSW1T96XKY8HJT5A","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.activar_riego_terraza","state":"on","attributes":{"id":"1747764981492","last_triggered":"2025-09-10T08:20:18.464671+00:00","mode":"single","current":0,"friendly_name":"Activar riego terraza"},"last_changed":"2025-09-10T07:52:17.205394+00:00","last_reported":"2025-09-10T08:20:18.466746+00:00","last_updated":"2025-09-10T08:20:18.466746+00:00","context":{"id":"01K4SBC5X0KZ596BJMB1T2QJP9","parent_id":"01K4SBC5X08N978ZHTE19863FE","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.desactivar_riego_terraza","state":"on","attributes":{"id":"1747765373504","last_triggered":"2025-09-10T08:26:18.619778+00:00","mode":"single","current":0,"friendly_name":"Desactivar riego terraza"},"last_changed":"2025-09-10T07:52:53.740148+00:00","last_reported":"2025-09-10T08:26:18.626812+00:00","last_updated":"2025-09-10T08:26:18.626812+00:00","context":{"id":"01K4SBQ5KVZJKCEW5K1BHS330S","parent_id":"01K4SBQ5KTKXXSKXAYK1VZ401B","user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-09-10T09:01:54.395331+00:00"
+    }
+  ]
+}

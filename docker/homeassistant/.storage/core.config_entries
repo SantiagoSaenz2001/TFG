@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "created_at": "2024-10-17T19:25:14.755085+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "sun",
+        "entry_id": "01JADZ1Z43DY694JTWCMPQXM8N",
+        "minor_version": 1,
+        "modified_at": "2024-10-17T19:25:14.755088+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "title": "Sun",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-17T19:28:22.646037+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "shopping_list",
+        "entry_id": "01JADZ7PKPBNXC3KSBH487VZ35",
+        "minor_version": 1,
+        "modified_at": "2024-10-17T19:28:22.646040+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-17T19:28:22.651966+00:00",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "google_translate",
+        "entry_id": "01JADZ7PKVYJJFR3D9AJJAQXJH",
+        "minor_version": 1,
+        "modified_at": "2024-10-17T19:28:22.651967+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Google Translate text-to-speech",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-17T19:28:22.722674+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "radio_browser",
+        "entry_id": "01JADZ7PP2NVGG2FGTF5AVGM57",
+        "minor_version": 1,
+        "modified_at": "2024-10-17T19:28:22.722676+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Radio Browser",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2025-07-16T18:27:21.447924+00:00",
+        "data": {
+          "broker": "localhost",
+          "port": 1883,
+          "discovery": true
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "mqtt",
+        "entry_id": "01K0A7VF7729T6KXGE0EXSKJWK",
+        "minor_version": 1,
+        "modified_at": "2025-07-16T18:27:21.447927+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "localhost",
+        "unique_id": null,
+        "version": 1
+      }
+    ]
+  }
+}
